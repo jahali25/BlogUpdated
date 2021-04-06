@@ -1,7 +1,6 @@
 let mock = [{
     id: 1,
     title: "Haley's first Solo flight",
-    image: 'haley_airport.jpg',
     paragraphs: ["Thursday morning I took Haley to the Airport to visit her Aunt " +
      "Paula. She hasn't been on a plane in a long time. She was very excited." +
      " She had a none stop fight to BWI. When she got there she called to let me" +
@@ -13,7 +12,6 @@ let mock = [{
 {
     id: 2,
     title: "Noble peace prize",
-    image: 'noble_peace_prize.JPG',
     paragraphs: ["Haley's teacher this year was amazing. We a so thankful for" +
     " Mrs. Hayes and how much she helped Haley grow and become a wonderful" +
     " student. The last day of school she gave each child an award. She gave" +
@@ -25,7 +23,6 @@ let mock = [{
 {
     id: 3,
     title: "One year older and wiser too",
-    image: 'birthday.jpg',
     paragraphs: ["Yesterday was my 36th birthday. I am so thankful for all the" +
     " birthday wishes from dear friends and family. As I look back at the past" +
     " year I feel so grateful for the strength the Lord has given me. I am" +

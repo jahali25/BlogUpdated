@@ -13,7 +13,6 @@
     <div class="display" v-if="findItem">
     <div class="info">
             <h2>{{findItem.title}}</h2>
-            <img :src="getImage(findItem)" />
             <p>{{findItem.paragraphs}}</p>
             <p>Posted on {{findItem.date}}, at {{findItem.time}}</p>
         </div>
@@ -46,12 +45,6 @@ export default {
         this.findTitle = "";
         this.findItem = item;
       },
-      getImage(item) {
-        if (typeof(item.image) == "string") {
-          return "/images/" + item.image;
-        }
-        return item.image;
-      }
     }
 }
 </script>

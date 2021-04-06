@@ -3,7 +3,7 @@
     <div id="nav">
       <router-link to="/">Home</router-link> |
       <router-link to="/AddPosts">Add Posts</router-link> |
-      <router-link to="/Post">Posts</router-link>
+      <router-link to="/editPost">Edit Posts</router-link>
     </div>
     <router-view/>
     <div class ="footer">

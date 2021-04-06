@@ -2,7 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import AddPost from '../views/AddPost.vue'
-import Post from '../views/Post.vue'
+//import Post from '../views/Post.vue'
+import EditPost from '../views/EditPost.vue'
 
 Vue.use(VueRouter)
 
@@ -17,10 +18,15 @@ const routes = [
     name: 'AddPosts',
     component: AddPost,
   },
-  {
+  /*{
     path: "/Post",
     name: 'Post',
     component: Post,
+  },*/
+  {
+    path: "/editPost",
+    name: 'EditPost',
+    component: EditPost,
   }
 ]
 
