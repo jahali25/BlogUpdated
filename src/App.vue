@@ -2,9 +2,15 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/AddPosts">Add Posts</router-link> |
+      <router-link to="/Post">Posts</router-link>
     </div>
     <router-view/>
+    <div class ="footer">
+    <a href="https://github.com/jahali25/BlogUpdated" target="_blank">
+      <img src="/images/GitHub-Mark-120px-plus.png">
+    </a>
+  </div>
   </div>
 </template>
 
