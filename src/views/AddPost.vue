@@ -6,6 +6,9 @@
         <div class="form">
             <input v-model="title" placeholder="Title of the blog post" @change="postChanged">
             <p></p>
+            <input v-model="date" placeholder="Date of the blog post" @change="postChanged">
+            <p></p>
+            <input v-model="time" placeholder="Time of the blog post" @change="postChanged">
             <p></p>
             <button @click="upload">Upload</button>
             <textarea class = "post" name="Post" v-model="post"
@@ -28,6 +31,8 @@
                 title: "",
                 post: "",
                 items: [],
+                date: "",
+                time: "",
                 beenPosted: false,
             }
         },
@@ -56,8 +61,8 @@
                     id: maxId,
                     title: this.title,
                     paragraphs: [this.post],
-                    date: "January 1, 1996",
-                    time: "1:00 AM",
+                    date: this.date,
+                    time: this.time,
                 };
                 console.log(newPost);
                 this.$root.$data.posts.push(newPost);

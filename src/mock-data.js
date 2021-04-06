@@ -40,6 +40,21 @@ let mock = [{
     " ahead and becoming one step closer to the woman I want to be."],
     date: "Friday, June 12, 2009",
     time: "5:33 AM",
+},
+{
+    id: 4,
+    title: "Locks of Love",
+    paragraphs: ["Haley decided she wanted to donate her hair to locks of love." +
+    " Karley also thought she did to until I told her how short it would be." +
+    ' So Karley said she only wanted a trim. We talked about what "Locks of Love"' +
+    ' is and why kids would need their hair. Haley went first and loves her new' +
+    " hair cut. After seeing how cute Haley's hair is Karley wanted to join in" +
+    " the giving and got hers cut also. Now Locks of Love gets 22 inches a " +
+    "beautiful curly hair. We hope this makes some sweet girl very happy. I" +
+    " am very proud of Karley and Haley for being so kind and giving. Both girls" +
+    " look so cute with the new hair cuts."],
+    date: "Thursday, December 31, 2009",
+    time: "2:08 PM",
 }
 ]
 

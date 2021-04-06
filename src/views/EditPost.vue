@@ -13,6 +13,10 @@
   <div class="upload" v-if="findItem">
       <input v-model="findItem.title">
       <p></p>
+      <input v-model="findItem.date">
+      <p></p>
+      <input v-model="findItem.time">
+      <p></p>
       <textarea v-model="findItem.paragraphs"></textarea>
   </div>
   <div class="actions" v-if="findItem">
