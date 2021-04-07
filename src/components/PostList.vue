@@ -42,3 +42,14 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+p {
+    margin: 20px;
+}
+
+.postBody {
+    font-style: italic;
+}
+
+</style>

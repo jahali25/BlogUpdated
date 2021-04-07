@@ -11,6 +11,7 @@
             <input v-model="time" placeholder="Time of the blog post" @change="postChanged">
             <p></p>
             <button @click="upload">Upload</button>
+            <p></p>
             <textarea class = "post" name="Post" v-model="post"
             placeholder="Type the blog post here" @change="postChanged"> </textarea>
 
@@ -69,6 +70,8 @@
                 this.getItems();
                 this.title = '';
                 this.post = '';
+                this.date = '';
+                this.time = '';
                 this.beenPosted = true;
             }
         },

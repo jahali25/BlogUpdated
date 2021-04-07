@@ -68,6 +68,32 @@ export default {
 </script>
 
 <style scoped>
+.find {
+  display: flex;
+}
+
+/*Form*/
+input, textarea, select, button {
+  font-family: 'Monstserrat', sans-serif;
+  font-size: 1em;
+}
+
+.form {
+  margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 50%;
+  height: 50px;
+}
+
 /* Suggestions */
 .suggestions {
   width: 200px;
